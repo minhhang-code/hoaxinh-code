@@ -1,0 +1,195 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.logo img {
+  width: 160px;
+  padding-left: 25px;
+  margin-top: 10px;
+}
+
+header {
+  background-color: #F9C8C8;
+  height: 105px;
+}
+
+header #thông_tin{
+  float: right;
+  display: flex;
+  margin-right: 15px;
+
+}
+header #thông_tin a {
+  text-decoration: none;
+  color: maroon; 
+  display: flex;
+  background-color:#F9C8C8 ;
+  
+}
+
+.banner img {
+  width: 100%;
+
+}
+
+
+
+
+
+.content ul {
+  background-color: maroon;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+
+
+}
+
+.content ul li {
+   margin : 20px 190px 20px 190px;
+   display: inline;
+
+}
+
+.content li>a{
+  text-decoration: none;
+  color: #fff;
+}
+
+
+
+
+
+
+
+.Nội_dung main {
+  display: flex;
+  padding: 20px;
+  column-gap: 15px;
+}
+
+.Nội_dung main section{
+  flex: 4;
+  gap: 100px;
+  border-radius: 15px;
+  background-color: #FFDFD3;
+  padding-left: 100px ;
+  padding-right: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.Nội_dung section{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.Nội_dung section .Nội_dung_con{
+  flex: 1 1 30 rem;
+  box-shadow: 1rem 1rem rgba(0,0,0,.1);
+  border-radius: 15px;
+  border: .1rem solid rgba(0,0,0,.1);
+  position: relative;
+}
+
+.Nội_dung section .Nội_dung_con p {
+  color: maroon;
+}
+
+.Nội_dung section .Nội_dung_con .icons a {
+  color: maroon;
+}
+
+.Nội_dung section .Nội_dung_con .image p {
+  padding: 10px;
+}
+
+
+
+.Nội_dung main aside{
+  flex: 1;
+  background-color: #F9C8C8;
+}
+
+.Nội_dung main aside p{
+  color: maroon;
+  text-align: center;
+}
+
+.Nội_dung main aside .video video{
+  width: 209px;
+}
+
+.Nội_dung main aside .pop-up {
+  position: fixed;
+  top:0; left:0;
+  background: rgba(0,0,0,.9);
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  display: none;
+
+}
+
+.Nội_dung main aside .pop-up span{
+  position: absolute;
+  top:0;
+  right: 10px;
+  font-size: 60px;
+  font-weight: bolder;
+  color: maroon;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.Nội_dung main aside .pop-up video {
+  position: absolute;
+  top: 50%; left:50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  width: 750px;
+  object-fit: cover;
+}
+
+
+
+
+
+
+.Chân_trang {
+  background-color: #F9C8C8;
+  margin-top: 15px;
+  padding: 20px;
+  column-gap: 50px;
+  display: flex;
+}
+
+.Chân_trang p {
+  color: maroon;
+}
+
+.Chân_trang .about-us ul li a{
+  color: maroon;
+  text-decoration: none;
+}
+
+.Chân_trang .contact ul li {
+  color: maroon;
+}
+
+.slogan p {
+  font-family: iCiel Altus;
+  text-align: center;
+}
+
+
+.gioi_thieu {
+  display: inline-flex;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #F9C8C8;
+  width: 93.5%;
+  justify-content: space-evenly;
+}
+
